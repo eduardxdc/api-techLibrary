@@ -1,0 +1,37 @@
+[
+  {
+    "ContainingType": "TechLibrary.Api.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TechLibrary.Communication.Requests.RequestUserJson",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TechLibrary.Communication.Responses.ResponseRegisteredUserJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "TechLibrary.Communication.Responses.ResponseErrorMessagesJson",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  }
+]
