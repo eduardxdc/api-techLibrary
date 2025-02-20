@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "TechLibrary.Api.Controllers.UsersController",
-    "Method": "Create",
+    "Method": "Register",
     "RelativePath": "Users",
     "HttpMethod": "POST",
     "IsController": true,

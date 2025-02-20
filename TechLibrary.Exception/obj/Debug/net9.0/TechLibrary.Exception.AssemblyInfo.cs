@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechLibrary.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15fa18d8501a861a585facd2b66c437666a77727")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1115f32cf8b848caff346117a5fe385b3778d611")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechLibrary.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechLibrary.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
