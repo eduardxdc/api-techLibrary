@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\TechLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj": {}
+    "c:\\dev\\api-techLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj": {}
   },
   "projects": {
-    "C:\\dev\\TechLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj": {
+    "c:\\dev\\api-techLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\TechLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj",
+        "projectUniqueName": "c:\\dev\\api-techLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj",
         "projectName": "TechLibrary.Api",
-        "projectPath": "C:\\dev\\TechLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj",
+        "projectPath": "c:\\dev\\api-techLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\TechLibrary\\TechLibrary.Api\\obj\\",
+        "outputPath": "c:\\dev\\api-techLibrary\\TechLibrary.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\dev\\TechLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj": {
-                "projectPath": "C:\\dev\\TechLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj"
+              "c:\\dev\\api-techLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj": {
+                "projectPath": "c:\\dev\\api-techLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj"
               },
-              "C:\\dev\\TechLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj": {
-                "projectPath": "C:\\dev\\TechLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj"
+              "c:\\dev\\api-techLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj": {
+                "projectPath": "c:\\dev\\api-techLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj"
               }
             }
           }
@@ -65,29 +65,29 @@
               "target": "Package",
               "version": "[11.11.0, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[8.0.12, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[8.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[8.0.12, )"
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[8.5.0, )"
+              "version": "[8.3.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.2.0, )"
+              "version": "[6.4.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[8.5.0, )"
+              "version": "[8.3.1, )"
             }
           },
           "imports": [
@@ -113,14 +113,14 @@
         }
       }
     },
-    "C:\\dev\\TechLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj": {
+    "c:\\dev\\api-techLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\TechLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj",
+        "projectUniqueName": "c:\\dev\\api-techLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj",
         "projectName": "TechLibrary.Communication",
-        "projectPath": "C:\\dev\\TechLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj",
+        "projectPath": "c:\\dev\\api-techLibrary\\TechLibrary.Communication\\TechLibrary.Communication.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\TechLibrary\\TechLibrary.Communication\\obj\\",
+        "outputPath": "c:\\dev\\api-techLibrary\\TechLibrary.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -178,14 +178,14 @@
         }
       }
     },
-    "C:\\dev\\TechLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj": {
+    "c:\\dev\\api-techLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\TechLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj",
+        "projectUniqueName": "c:\\dev\\api-techLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj",
         "projectName": "TechLibrary.Exception",
-        "projectPath": "C:\\dev\\TechLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj",
+        "projectPath": "c:\\dev\\api-techLibrary\\TechLibrary.Exception\\TechLibrary.Exception.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\TechLibrary\\TechLibrary.Exception\\obj\\",
+        "outputPath": "c:\\dev\\api-techLibrary\\TechLibrary.Exception\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
