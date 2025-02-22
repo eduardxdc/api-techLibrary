@@ -11,6 +11,8 @@ This project is an API built using **C#, .NET, Swagger, NuGet Packages, SQLite a
 
 The API simulates the functionality of a **book reservation platform**, such as a library. Users have the possibility of registering on the platform and can search for books in the library. Logged-in users can checkout (reserve) the books they want.
 
+https://github.com/user-attachments/assets/e0503bde-a81d-418a-a84a-620253b5f0f4
+
 ## Table of Contents
 
 - [Installation](#installation)
