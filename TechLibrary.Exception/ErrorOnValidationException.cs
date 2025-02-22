@@ -1,20 +1,10 @@
 ﻿using System.Net;
 
-namespace TechLibrary.Exception
+namespace TechLibrary.Exception;
+
+public class ErrorOnValidationException(List<string> errorMessages) : TechLibraryException(string.Empty)
 {
-    public class ErrorOnValidationException : TechLibraryException
-    {
+    public override List<string> GetErrorMessages() => errorMessages;
 
-        private readonly List<string> _errors;
-
-        public ErrorOnValidationException(List<string> errorMessages)
-        {
-            _errors = errorMessages;
-        }
-
-        public override List<string> GetErrorMessages() => _errors;
-
-        public override HttpStatusCode GetStatusCode() => HttpStatusCode.BadRequest;
-
-    }
+    public override HttpStatusCode GetStatusCode() => HttpStatusCode.BadRequest;
 }

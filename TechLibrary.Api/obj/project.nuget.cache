@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G2QNzOxr+J0=",
+  "dgSpecHash": "9BYijrtSXb0=",
   "success": true,
-  "projectFilePath": "c:\\dev\\api-techLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj",
+  "projectFilePath": "C:\\dev\\TechLibrary\\TechLibrary.Api\\TechLibrary.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eduar\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

@@ -1,6 +1,6 @@
-﻿using TechLibrary.Api.infrastructure.DataAccess;
-using TechLibrary.Api.infrastructure.Security.Cryptography;
-using TechLibrary.Api.infrastructure.Security.Tokens.Access;
+﻿using TechLibrary.Api.Infraestructure.DataAccess;
+using TechLibrary.Api.Infraestructure.Security.Cryptography;
+using TechLibrary.Api.Infraestructure.Security.Tokens.Access;
 using TechLibrary.Communication.Requests;
 using TechLibrary.Communication.Responses;
 using TechLibrary.Exception;
@@ -15,9 +15,7 @@ namespace TechLibrary.Api.UseCases.Login.DoLogin
 
             var entity = dbContext.Users.FirstOrDefault(user => user.Email.Equals(request.Email));
             if (entity is null)
-            {
                 throw new InvalidLoginException();
-            }
 
             var cryptography = new BCryptAlgorithm();
             var passwordIsValid = cryptography.Verify(request.Password, entity);

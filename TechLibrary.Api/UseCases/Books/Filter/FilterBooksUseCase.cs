@@ -1,4 +1,5 @@
-﻿using TechLibrary.Api.Infraestructure.DataAccess;
+﻿using TechLibrary.Api.Domain.Entities;
+using TechLibrary.Api.Infraestructure.DataAccess;
 using TechLibrary.Communication.Requests;
 using TechLibrary.Communication.Responses;
 
@@ -13,6 +14,7 @@ public class FilterBookUseCase
         var dbContext = new TechLibraryDbContext();
 
         var skip = ((request.PageNumber - 1) * PAGE_SIZE);
+
 
         var query = dbContext.Books.AsQueryable();
 
@@ -40,12 +42,12 @@ public class FilterBookUseCase
                 PageNumber = request.PageNumber,
                 TotalCount = totalCount,
             },
-            Books = [.. books.Select(book => new ResponseBookJson
+            Books = books.Select(book => new ResponseBookJson
             {
                 Id = book.Id,
                 Title = book.Title,
                 Author = book.Author,
-            })]
+            }).ToList()
         };
     }
 }

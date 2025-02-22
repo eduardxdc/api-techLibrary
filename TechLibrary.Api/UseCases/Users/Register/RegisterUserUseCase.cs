@@ -1,8 +1,8 @@
 ﻿using FluentValidation.Results;
 using TechLibrary.Api.Domain.Entities;
-using TechLibrary.Api.infrastructure.DataAccess;
-using TechLibrary.Api.infrastructure.Security.Cryptography;
-using TechLibrary.Api.infrastructure.Security.Tokens.Access;
+using TechLibrary.Api.Infraestructure.DataAccess;
+using TechLibrary.Api.Infraestructure.Security.Cryptography;
+using TechLibrary.Api.Infraestructure.Security.Tokens.Access;
 using TechLibrary.Communication.Requests;
 using TechLibrary.Communication.Responses;
 using TechLibrary.Exception;
