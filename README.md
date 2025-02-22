@@ -153,7 +153,7 @@ The API uses **JWT** for authentication control. To access protected endpoints a
 The project utilizes [SQLite](https://sqlitebrowser.org/dl/) as the database. To open the database, use SQLite Browser, go to **Open Database** and select the database file present in the cloned project.
 
 ![Open Database](./.github/openDatabase.png)
-![Select the Database](./.github/openDatabase.png)
+![Select the Database](./.github/openDatabaseII.png)
 
 ## Contributing
 
