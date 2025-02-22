@@ -152,7 +152,7 @@ POST /Users - Register a new user into the App;
 The API uses **JWT** for authentication control. To access protected endpoints as a **required** authorization access, type 'Bearer' [space] and then your token in the text input below; Example: 'Bearer 12345abcdef'.
 
 ## Database
-The project utilizes [SQLite](https://sqlitebrowser.org/dl/) as the database. To open the database, use SQLite Browser, go to **Open Database** and select the database file present in the cloned project.
+The project utilizes [SQLite](https://sqlitebrowser.org/dl/) as the database. To open the database, use DB Browser for SQLite, go to **Open Database** and select the database file present in the cloned project.
 
 ![Open Database](./.github/openDatabase.png)
 ![Select the Database](./.github/openDatabaseII.png)
