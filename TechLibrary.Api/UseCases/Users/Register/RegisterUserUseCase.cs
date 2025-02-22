@@ -47,7 +47,7 @@ namespace TechLibrary.Api.UseCases.Users.Register
            var existUserWithEmail = dbContext.Users.Any(user => user.Email.Equals(request.Email));
             if (existUserWithEmail)
             {
-                result.Errors.Add(new ValidationFailure("Email", "Email já registrado na plataforma!"));
+                result.Errors.Add(new ValidationFailure("Email", "Email already registered on the platform."));
             }
 
             if (result.IsValid == false)

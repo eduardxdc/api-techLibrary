@@ -38,11 +38,11 @@ public class RegisterBookCheckoutUseCase
     {
         var book = dbContext.Books.FirstOrDefault(book => book.Id == bookId);
         if (book is null)
-            throw new NotFoundException("Livro não encontrado!");
+            throw new NotFoundException("Book not found.");
 
         var amountBookNotReturned = dbContext.Checkouts.Count(checkout => checkout.BookId == bookId && checkout.ReturnedDate == null);
 
         if (amountBookNotReturned == book.Amount)
-            throw new ConflictException("Livro não está disponível para empréstimo!");
+            throw new ConflictException("This book is not available for loan.");
     }
 }

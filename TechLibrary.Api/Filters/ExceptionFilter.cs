@@ -21,7 +21,7 @@ namespace TechLibrary.Api.Filters
                 context.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
                 context.Result = new ObjectResult(new ResponseErrorMessagesJson
                 {
-                    Errors = ["Erro Desconhecido"]
+                    Errors = ["Unknown error."]
                 });
             }
         }
