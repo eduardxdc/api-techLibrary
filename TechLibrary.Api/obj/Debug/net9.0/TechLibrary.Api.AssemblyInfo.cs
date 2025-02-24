@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechLibrary.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6762b30df0d7c67b22ca5feb898b2be2207c378")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24150d25dd51078a566059005c85c8c9a6055a7d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechLibrary.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechLibrary.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
